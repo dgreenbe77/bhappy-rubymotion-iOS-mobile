@@ -1,0 +1,24 @@
+# Logfile created on 2014-03-02 00:33:30 -0500 by logger.rb/41954
+I, [2014-03-02T00:33:30.255724 #30941]  INFO -- : 0:  rake (10.1.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rake-10.1.0.gemspec
+I, [2014-03-02T00:33:30.278154 #30941]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-03-02T00:33:32.500402 #30941]  INFO -- : 0:  methadone (1.3.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/methadone-1.3.1.gemspec
+I, [2014-03-02T00:33:33.794042 #30941]  INFO -- : 0:  ProMotion (1.1.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/ProMotion-1.1.0.gemspec
+I, [2014-03-02T00:33:33.794470 #30941]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.0.0-p353@global/specifications/i18n-0.6.9.gemspec
+I, [2014-03-02T00:33:34.939614 #30941]  INFO -- : 0:  multi_json (1.8.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.8.2.gemspec
+I, [2014-03-02T00:33:37.324169 #30941]  INFO -- : 0:  activesupport (3.2.16) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/activesupport-3.2.16.gemspec
+I, [2014-03-02T00:33:38.585502 #30941]  INFO -- : 0:  claide (0.4.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/claide-0.4.0.gemspec
+I, [2014-03-02T00:33:39.581726 #30941]  INFO -- : 0:  fuzzy_match (2.0.4) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/fuzzy_match-2.0.4.gemspec
+I, [2014-03-02T00:33:39.582144 #30941]  INFO -- : 0:  json (1.8.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-03-02T00:33:40.934613 #30941]  INFO -- : 0:  nap (0.6.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/nap-0.6.0.gemspec
+I, [2014-03-02T00:33:41.813704 #30941]  INFO -- : 0:  cocoapods-core (0.28.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/cocoapods-core-0.28.0.gemspec
+I, [2014-03-02T00:33:42.883368 #30941]  INFO -- : 0:  cocoapods-downloader (0.2.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/cocoapods-downloader-0.2.0.gemspec
+I, [2014-03-02T00:33:43.598778 #30941]  INFO -- : 0:  colored (1.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-03-02T00:33:44.291507 #30941]  INFO -- : 0:  escape (0.0.4) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/escape-0.0.4.gemspec
+I, [2014-03-02T00:33:46.229488 #30941]  INFO -- : 0:  json_pure (1.8.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/json_pure-1.8.1.gemspec
+I, [2014-03-02T00:33:47.045577 #30941]  INFO -- : 0:  open4 (1.3.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/open4-1.3.0.gemspec
+I, [2014-03-02T00:34:07.066027 #30941]  INFO -- : 0:  xcodeproj (0.14.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/xcodeproj-0.14.1.gemspec
+I, [2014-03-02T00:34:08.652814 #30941]  INFO -- : 0:  cocoapods (0.28.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/cocoapods-0.28.0.gemspec
+I, [2014-03-02T00:34:09.703793 #30941]  INFO -- : 0:  motion-cocoapods (1.4.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/motion-cocoapods-1.4.0.gemspec
+I, [2014-03-02T00:34:10.415763 #30941]  INFO -- : 0:  motion-require (0.0.7) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/motion-require-0.0.7.gemspec
+I, [2014-03-02T00:34:12.407436 #30941]  INFO -- : 0:  afmotion (2.0.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/afmotion-2.0.0.gemspec
+I, [2014-03-02T00:34:13.417640 #30941]  INFO -- : 0:  motion-stump (0.3.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/motion-stump-0.3.0.gemspec
