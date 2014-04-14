@@ -26,21 +26,23 @@ class PostList < PM::TableScreen
     set_nav_bar_button :right, system_item: :add, action: :add_post
   end
 
+  def logout
+    open Login.new(nav_bar: true)
+    # UIApplication.sharedApplication.delegate.on_load
+  end
+
   def on_refresh
-    Bhappy.new.now do |response|      
-      @posts = response.map do |f|
-        {
-          title: f["title"],
-          subtitle: f["main_post"],
-          action: :open_posts,
-          editing_style: :delete,
-          arguments: { created_at: f["created_at"] }
-        }
-      #   {
-      #     title: f["headline"],
-      #     action: :tap_headline,
-      #     arguments: { links: f["links"] }
-      #   }
+    Bhappy.new.now do |response|
+      unless response.nil?      
+        @posts = response.map do |f|
+          {
+            title: f["title"],
+            subtitle: f["main_post"],
+            action: :open_posts,
+            editing_style: :delete,
+            arguments: { created_at: f["created_at"] }
+          }
+        end
       end
       update_table_data
       stop_refreshing
