@@ -32,7 +32,7 @@ class PostList < PM::TableScreen
   end
 
   def on_refresh
-    Bhappy.new.now do |response|
+    Bhappy.new.get_posts do |response|
       unless response.nil?      
         @posts = response.map do |f|
           {

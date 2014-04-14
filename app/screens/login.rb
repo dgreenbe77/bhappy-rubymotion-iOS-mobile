@@ -49,9 +49,6 @@ class Login < PM::FormotionScreen
     end
 
     App::Persistence['email'] = form.render[:email]
-
-    # app_delegate.posts << data
-    # close
     open PostList.new(nav_bar: true)
   end
 
