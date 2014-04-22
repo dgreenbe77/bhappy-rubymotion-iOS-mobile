@@ -8,7 +8,8 @@ module PostStyles
 
   def main_view_style
     {
-      background_color: hex_color("000000")
+      background_color: hex_color("79daf3"),
+      text_color: hex_color("79daf3")
     }
   end
 

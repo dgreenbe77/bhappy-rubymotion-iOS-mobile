@@ -28,7 +28,6 @@ class PostList < PM::TableScreen
 
   def logout
     open_modal Login.new(nav_bar: true)
-    # UIApplication.sharedApplication.delegate.on_load
   end
 
   def on_refresh
