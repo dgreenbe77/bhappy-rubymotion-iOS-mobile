@@ -58,6 +58,7 @@ PLATFORMS
 DEPENDENCIES
   ProMotion (~> 1.1.0)
   afmotion (~> 2.0.0)
+  bubble-wrap (~> 1.4.0)
   formotion
   motion-stump (~> 0.3.0)
   rake

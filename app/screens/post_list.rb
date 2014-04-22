@@ -19,15 +19,15 @@ class PostList < PM::TableScreen
     on_refresh
     set_attributes self.view, :main_view_style
     button =  UIButton.buttonWithType(UIButtonTypeCustom)
-    button.setImage(UIImage.imageNamed("guide"), forState:UIControlStateNormal)
-    button.addTarget(self, action: :open_guide, forControlEvents:UIControlEventTouchUpInside)
+    button.setImage(UIImage.imageNamed("logout"), forState:UIControlStateNormal)
+    button.addTarget(self, action: :logout, forControlEvents:UIControlEventTouchUpInside)
     button.setFrame [[ 0, 0 ], [ 32, 32 ]]
     set_nav_bar_button :left, button: UIBarButtonItem.alloc.initWithCustomView(button)
     set_nav_bar_button :right, system_item: :add, action: :add_post
   end
 
   def logout
-    open Login.new(nav_bar: true)
+    open_modal Login.new(nav_bar: true)
     # UIApplication.sharedApplication.delegate.on_load
   end
 
