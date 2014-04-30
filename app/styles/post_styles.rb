@@ -15,7 +15,6 @@ module PostStyles
 
   def global_label_style
     {
-      # background_color: hex_color("FF6666"),
       layer: {
         shadow_radius: 4.0,
         shadow_opacity: 0.4,

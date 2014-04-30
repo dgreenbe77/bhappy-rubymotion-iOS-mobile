@@ -58,7 +58,7 @@ class AddPost < PM::FormotionScreen
       end
     end
 
-    url = "http://localhost:3000/world.json"
+    url = "http://bhappy.herokuapp.com/world.json"
     email = App::Persistence['email']
     headers = { 'Content-Type' => 'application/json' }
     data = BW::JSON.generate({ email: email, title: form.render[:title], 
